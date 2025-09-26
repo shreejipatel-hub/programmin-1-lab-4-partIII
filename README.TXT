@@ -15,3 +15,18 @@ Create a MusicOrganizer object on the object bench.
 Use its methods to add, remove, and play files. The listAllFiles
 method prints a list of the collection.
 
+27)public void playByArtist(String artist)
+    {
+        for (String filename : files)
+        {
+            if(filename.contains(artist))
+            {
+                 player.playSample(filename);
+            }
+        } 
+        System.out.println("Finished processing tracks for artist: " + artistName);
+    }
+    
+
+28)for (Track track : trackList)
+    {body}
